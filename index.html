@@ -8,9 +8,10 @@
         body{
             margin: 0;
             padding: 0;
+            background-color: #f2f2f2;
         }
         .navbar-container{
-            background-color:rgb(227, 227, 227) ;
+            background-color:#efccff ;
             height:60px;
             padding: 10px;
             display: flex;
@@ -40,7 +41,19 @@
         }
 
         .sign-up-btn{
+            background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
+            padding: 7px 18px;
+            border-radius: 10px;
+            cursor: pointer;
 
+        }
+
+        /* body section */
+
+        .head-img{
+            width: 100vw;
+            height: 400px;
+            
         }
 
     </style>
@@ -49,17 +62,22 @@
     <body>
         <!-- Navbar -->
         <div class="navbar-container">
-            <img src="./img/logo-1.jpg" class="logo-img">
 
+            <img src="./img/logo-1.jpg" class="logo-img">
             <a href="" class="navbar-menus">Men</a>
             <a href="" class="navbar-menus">Wowen</a>
             <a href="" class="navbar-menus">Kids</a>
             <input type="text" class="input-box" placeholder="Search Products">
             <a href="" class="navbar-menus">About</a>
             <button type="button" class="sign-up-btn">SignIn/Up</button>
+        </div>
 
-    
-    
+        <!-- body section -->
+
+        <div class="head-img-container">
+            <img src="./img/img-3.webp" class="head-img">
+
+
         </div>
         
     
