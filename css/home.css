@@ -130,7 +130,38 @@ body {
 
 .categories-card-container{
     background-color: aquamarine;
-    height: 280px;
+    height: 230px;
     padding: 10px;
-    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
+
+.categories-main-heading{
+    text-align: center;
+    font-size: 30px;
+}
+
+.category-card{
+    width: 160px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px;
+}
+
+.category-img{
+    height: 120px;
+    width: 100px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto ;
+}
+
+.women-cate-desc{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
