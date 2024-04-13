@@ -1,75 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Fusion Tribe</title>
-    <style>
-        body{
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-        }
-        .navbar-container{
-            background-image: linear-gradient( 179.4deg,  rgba(33,150,243,1) 1.8%, rgba(22,255,245,0.60) 97.1% );
-            height:60px;
-            padding: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            border: 1px solid gray;
-        }
+    <link rel="stylesheet" href="./css/home.css">
 
-        .logo-img{
-            height: 70px;
-            border-radius: 50%;
-           
-        }
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-        .navbar-menus{
-            text-decoration: none;
-            color: black;
-            font-size: 18px;
-            font-weight: bold;
-
-        }
-
-        .input-box{
-            width: 220px;
-            padding: 10px;
-            border-radius: 10px;
-            border: none;
-            border: 1px solid black;
-
-        }
-
-        .sign-up-btn{
-            background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
-            padding: 7px 18px;
-            border-radius: 10px;
-            cursor: pointer;
-            color: white;
-            font-weight: bold;
-            
-        }
-
-        .sign-up-btn:hover{
-            background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(161,255,255,1) 11.3%, rgba(6,255,255,1) 41.2%, rgba(0,216,216,1) 77.8% );
-            color: black;
-            font-weight: bold;
-        }
-
-        /* body section */
-
-        .head-img{
-            width: 100vw;
-            height: 400px;
-            
-        }
-
-    </style>
 </head>
+
 <body>
+
     <body>
         <!-- Navbar -->
         <div class="navbar-container">
@@ -89,90 +32,232 @@
             <img src="./img/img-3.webp" class="head-img" id="image-change" onmouseover="imageChange()">
 
         </div>
+        <br>
 
 
         <!-- offer cards section -->
 
-        <div class="offer-card container">
-            
-            <div class="offer-card">
+        <div class="offer-container">
 
+            <h1 class="offer-heading">Today's Special Offers</h1>
+            <br><br>
+
+            <div class="offer-card-container">
+
+                <div class="offer-card" data-aos="fade-right" data-aos-duration="2000">
+                    <img src="./img/home-img/tshirt-offer-img2.webp" class="offer-img">
+
+                    <br><br><br>
+                    <div>
+                        <p class="offer-desc">T-shirts</p>
+                        <p class="offer-desc">UP TO 50% OFF</p>
+                        <button type="button" class="shop-now-btn">Shop Now</button>
+                    </div>
+
+                </div>
+
+                <div class="offer-card" data-aos="fade-right" data-aos-duration="2000">
+                    <img src="./img/home-img/women-cate-img-2.jpg" class="offer-img">
+
+                    <br><br><br>
+                    <div>
+                        <p class="offer-desc">Dresses</p>
+                        <p class="offer-desc">UP TO 30% OFF</p>
+                        <button type="button" class="shop-now-btn">Shop Now</button>
+                    </div>
+
+                </div>
+
+                <div class="offer-card" data-aos="fade-left" data-aos-duration="2000">
+                    <img src="./img/home-img/saree-offer-img.jpeg" class="offer-img">
+
+                    <br><br><br>
+                    <div>
+                        <p class="offer-desc">Saree</p>
+                        <p class="offer-desc">UP TO 55% OFF</p>
+                        <button type="button" class="shop-now-btn">Shop Now</button>
+                    </div>
+
+                </div>
+
+                <div class="offer-card" data-aos="fade-left" data-aos-duration="2000">
+                    <img src="./img/home-img/jeans-offer-img.webp" class="offer-img">
+
+                    <br><br><br>
+                    <div>
+                        <p class="offer-desc">Jeans</p>
+                        <p class="offer-desc">UP TO 40% OFF</p>
+                        <button type="button" class="shop-now-btn">Shop Now</button>
+                    </div>
+
+                </div>
             </div>
+        </div>
+        <br>
 
-            <div class="offer-card">
+        <!-- categories section -->
 
-            </div>
+        <h1 class="categories-main-heading">Shop By Categories</h1>
+        <br><br>
 
-            <div class="offer-card">
 
-            </div>
+        <div class="categories-card-container">
 
-            <div class="offer-card">
+            <a href="./pages/womens.html">
+                <div class="category-card">
+                    <img src="./img/home-img/women-category-img.jpg" class="category-img" />
+                    <p class="women-cate-desc">Womenswear</p>
 
+                </div>
+            </a>
+
+
+            <a href="./pages/mens.html">
+                <div class="category-card">
+                    <img src="./img/home-img/men-cate-img.jpg" class="category-img" />
+                    <p class="women-cate-desc">Menswear</p>
+
+                </div>
+            </a>
+
+            <a href="./pages/kids.html">
+                <div class="category-card">
+                    <img src="./img/home-img/kids-cate-img.avif" class="category-img" />
+                    <p class="women-cate-desc">Kidswear</p>
+
+                </div>
+            </a>
+
+            <a href="./pages/">
+                <div class="category-card">
+                    <img src="./img/home-img/other-cate-img.jpg" class="category-img" />
+                    <p class="women-cate-desc">Other</p>
+
+                </div>
+            </a>
+        </div>
+
+
+        <div class="festive-look-container">
+            <h1 class="festive-heading">Up to 50% off | Women's traditional wear for this festive season <span
+                    class="font-size"><a href="">See all offers</a></span></h1>
+            <div class="festive-head-container">
+                <div class="festive-card">
+                    <img src="./img/home-img/festive-ladies-img-2.jpg" class="festive-card-img">
+
+                </div>
+
+                <div class="festive-card">
+                    <img src="./img/home-img/festive-ladies-img-3.jpg" class="festive-card-img">
+
+                </div>
+
+                <div class="festive-card">
+                    <img src="./img/home-img/festive-ladies-img-8.jpg" class="festive-card-img">
+
+                </div>
+
+                <div class="festive-card">
+                    <img src="./img/home-img/festive-ladies-img-7.jpg" class="festive-card-img">
+
+                </div>
+
+                <div class="festive-card">
+                    <img src="./img/home-img/festive-ladies-img-1.jpg" class="festive-card-img">
+
+                </div>
+
+
+                <div class="festive-card">
+                    <img src="./img/home-img/festive-ladies-img-9.jpg" class="festive-card-img">
+
+                </div>
             </div>
 
 
         </div>
 
 
-        
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- javascript -->
-
-        <!-- head image section -->
-  <script>
-
-    function imageChange(){
-        const imageElement=document.getElementById("image-change");
        
-        const min=1;
-        const max=6;
-        const mathElement=Math.round(Math.random()*(max-min)+(min));
-        console.log(mathElement);
-        
-         switch(mathElement){
-            case(1):
-            imageElement.src="./img/img-1.webp";
-            break;
+            <h1 class="festive-heading">Summer Drip List<br>
+                Totally Sun Approved</h1>
+            <div class="summer-list-container">
+              <div class="summer-list-container-div"> 
+            <div class="summer-list-items-cards">
+                <img src="./img/home-img/summer-tshirt.jpg" class="summer-img">
+                <p class="summer-desc">T-Shirts</p>
+                <p class="summer-desc">50% OFF</p>
+            </div>
 
-            case(2):
-            imageElement.src="./img/img-2.webp";
-            break;
-
-            case(3):
-            imageElement.src="./img/img-3.webp";
-            break;
-
-            case(4):
-            imageElement.src="./img/img-4.webp";
-            break;
-
-            case(5):
-            imageElement.src="./img/img-5.webp";
-            break;
-
-            case(6):
-            imageElement.src="./img/img-6.webp";
-            break;
-         }
-
-    }
+            <div class="summer-list-items-cards">
+                <img src="./img/home-img/summer-shirt.jpg" class="summer-img">
+                <p class="summer-desc">Shirts</p>
+                <p class="summer-desc">40-70% OFF</p>
+            </div>
 
 
-  </script>
-</body>
+            <div class="summer-list-items-cards">
+                <img src="./img/home-img/summer-formal.jpg" class="summer-img">
+                <p class="summer-desc">Formalwear</p>
+                <p class="summer-desc">min 40% OFF</p>
+            </div>
+
+            <div class="summer-list-items-cards">
+                <img src="./img/home-img/summer-shoose.jpg" class="summer-img">
+                <p class="summer-desc">Sports Shoose</p>
+                <p class="summer-desc">min 40% OFF</p>
+            </div>
+            </div>
+
+            <div class="summer-list-container-div"> 
+            <div class="summer-list-items-cards">
+                <img src="./img/home-img/summer-sunglasses.jpg" class="summer-img">
+                <p class="summer-desc">Sunglass</p>
+                <p class="summer-desc">Starting 199</p>
+            </div>
+
+
+            <div class="summer-list-items-cards">
+                <img src="./img/home-img/summer-jeans.jpg" class="summer-img">
+                <p class="summer-desc">Jeans</p>
+                <p class="summer-desc">50% OFF</p>
+            </div>
+
+
+            <div class="summer-list-items-cards">
+                <img src="./img/home-img/formal-pants.jpg" class="summer-img">
+                <p class="summer-desc">Formal-Pants</p>
+                <p class="summer-desc">50% OFF</p>
+            </div>
+
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="./javascript/home.js">
+        </script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
+    </body>
+
 </html>
