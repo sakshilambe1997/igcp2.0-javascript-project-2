@@ -131,7 +131,7 @@ body {
 /* categories-card-container- section*/
 
 .categories-card-container{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 230px;
     padding: 10px;
     display: flex;
@@ -146,24 +146,60 @@ body {
 }
 
 .category-card{
-    width: 160px;
-    background-color:antiquewhite;
-    border-radius: 10px;
-    height: 150px;
+    width: 200px;
+    background-image: linear-gradient(179.4deg, rgba(33, 150, 243, 1) 1.8%, rgba(22, 255, 245, 0.60) 97.1%);
+    border-radius: 20px;
+    height: 210px;
     padding: 10px;
+    border: 1px solid black;
+}
+
+.category-card:hover{
+    margin-top: -10px;
+    cursor: pointer;
+
 }
 
 .category-img{
-    height: 120px;
-    width: 100px;
+    height: 170px;
+    width: 160px;
     border-radius: 10px;
     display: block;
     margin: 0 auto ;
 }
 
 .women-cate-desc{
-    text-align: center;
+   /* display: block;
+   margin: 5px auto; */
+   text-align: center;
     font-weight: bold;
     font-size: 18px;
+   text-decoration: none;
+    color: black;
+}
+
+/* festive card section */
+
+.festive-look-container{
+    background-color: aqua;
+    height: 350px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.festive-heading{
+    text-align: center;
+    
+}
+
+.festive-head-container{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.font-size{
+    font-size: 20px;
+    text-decoration: none;
+
 }
 
