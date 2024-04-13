@@ -193,13 +193,22 @@ body {
 }
 
 .festive-head-container{
-    background-color: aquamarine;
-    height: 200px;
+    background-color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .font-size{
     font-size: 20px;
     text-decoration: none;
 
+}
+
+.festive-card-img{
+    height: 200px;
+    width: 120px;
+    
 }
 
