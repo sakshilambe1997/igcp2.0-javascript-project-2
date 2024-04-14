@@ -18,7 +18,6 @@ function increaseQuantity() {
     finalPriceElement.innerText = `Total : ${quantityValue * 699}`;
 
 
-
 }
 
 function decreaseQuantity() {
@@ -40,4 +39,16 @@ function changeImgblue(){
     const imageElement =document.getElementById("card-img")
     imageElement.src= "./../img/mens-img/tshirt-1b.jpg"
 }
+
+function changeImgyellow(){
+    const imageElement =document.getElementById("card-img")
+    imageElement.src= "./../img/mens-img/tshirt-1y.jpg"
+}
+
+function changeImggreen(){
+    const imageElement =document.getElementById("card-img")
+    imageElement.src= "./../img/mens-img/tshirt-1g.jpg"
+}
+
+
 
