@@ -29,5 +29,17 @@ function imageChange() {
 
 }
 
+function lightMode(){
+    const lightModeElement = document.getElementById('light');
+
+    lightModeElement.classList.add('active')
+
+    const darkMode = document.getElementById('dark');
+    
+    darkMode.classList.remove('active');
+
+    const body=document.getElementById('body');
+    body.className="bg-light";
+}
 
 
