@@ -36,3 +36,40 @@
 
     }
 
+    
+       
+        
+
+        function lightMode(){
+        const lightModeElement = document.getElementById('light');
+
+        lightModeElement.classList.add('active')
+
+        const darkMode = document.getElementById('dark');
+        
+        darkMode.classList.remove('active');
+
+        const body=document.getElementById('body');
+        body.className="bg-light";
+    }
+
+    function darkMode() {
+    
+        const lightModeElement = document.getElementById('light');
+        lightModeElement.classList.remove('active');
+
+        const darkMode = document.getElementById('dark');
+        darkMode.classList.add('active');
+
+        const body=document.getElementById('body');
+        body.className="bg-dark";
+
+        const boxElement=document.getElementById('box-container');
+        boxElement.classList.add('text-color');
+
+    }
+
+    function boxContainer(){
+        const boxElements=document.getElementById('box-container');
+        boxElements.className.add('text-color');
+    }
