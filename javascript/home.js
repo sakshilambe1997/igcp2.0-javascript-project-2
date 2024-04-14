@@ -36,10 +36,6 @@
 
     }
 
-    
-       
-        
-
         function lightMode(){
         const lightModeElement = document.getElementById('light');
 
