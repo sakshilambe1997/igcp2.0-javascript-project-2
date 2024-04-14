@@ -29,6 +29,21 @@ function like2(){
         }
 
     }
+    // card 3
+
+    function like3(){
+        const likeElement = document.getElementById("like3")
+        if (state ){
+            likeElement.src="./../img/mens-img/heart-red.png";
+          
+            state = false;
+        }
+            else {
+                likeElement.src="./../img/mens-img/heart-blank.png";
+                state = true;
+            }
+    
+        }
 
 
 const quantityPriceElement = document.getElementById("quantity-price")
