@@ -62,3 +62,30 @@ body {
     color: black;
     font-weight: bold;
 }
+
+
+
+/* footer section */
+
+.footer-container {
+    height: 180px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.footer-logo-img{
+    height:100px;
+    margin-top:30px;
+    border-radius: 50%;
+
+}
+
+
+.footer-text {
+    color: white;
+    cursor: pointer;
+}
+

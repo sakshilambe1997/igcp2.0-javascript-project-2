@@ -1,0 +1,271 @@
+
+/* .menus-container{
+    /* background-color: blue;
+} */
+.menu {
+    text-decoration: none;
+    margin: 30px;
+    font-size: 20px;
+
+    color: white;
+}
+
+
+.signup-btn {
+    padding: 10px 18px;
+    border-radius: 20px;
+}
+
+
+
+.signup-btn {
+    background-color: #33ff74;
+    font-weight: bold;
+    border: none;
+    border: 2px solid #008028;
+}
+
+.signup-btn:hover {
+    background-color: #008028;
+    font-weight: bold;
+    border: 2px solid #008028;
+    color: white;
+    box-shadow: 0 0 2px 2px white;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+/* login body section */
+
+
+.login-container {
+    background-color: #f5f5f5;
+}
+
+.login-tiger-img {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    filter: blur(1px);
+}
+
+
+.login-form-main-container {
+    height: 370px;
+    width: 380px;
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+    border-radius: 20px;
+    margin-left: -270px;
+    position: absolute;
+    top: 180px;
+    left: 40%;
+    border: 2px solid blue;
+}
+
+
+.login-logo-img-container {
+    align-items: center;
+    /* background-color: aliceblue; */
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.login-text {
+    text-align: center;
+    font-size: 40px;
+}
+
+.login-logo-img {
+    height: 22px;
+
+}
+
+.login-form-container {
+    /* background-color: white; */
+    height: 120px;
+    width: 250px;
+    display: block;
+    margin: 30px auto;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+
+.input-box {
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.login-page-btn {
+    margin-left: 80px;
+    align-items: center;
+    background-image: linear-gradient(179.4deg, rgba(33, 150, 243, 1) 1.8%, rgba(22, 255, 245, 0.60) 97.1%);
+    padding: 5px 18px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.login-page-btn:hover {
+    background-color: #99ffff;
+    border: 3px solid #00b3b3;
+    transition: 0.5s;
+}
+
+@media screen and (min-width:300px) and (max-width:569px) {
+
+    /* navbaer */
+
+    .navbar-container {
+        display: flex;
+        height: 60px;
+        justify-content: space-around !important;
+
+    }
+
+    .head-img-container {
+        /* background-color: bisque; */
+        height: 30px;
+        text-align: center;
+        display: flex;
+
+    }
+
+    .navbar-logo-1 {
+        height: 50px !important;
+        margin: 5px;
+        margin-top: -10px !important;
+
+    }
+
+    .navbar-logo-2 {
+        margin-top: 3px !important;
+        height: 30px !important;
+
+    }
+
+    .menus-container {
+        /* background-color: blue; */
+        width: 250px;
+    }
+
+    .menu {
+        text-decoration: none;
+        margin: 7px !important;
+        font-size: 10px !important;
+        color: white;
+        cursor: pointer;
+    }
+
+
+    .signup-btn {
+        padding: 7px 15px !important;
+        border-radius: 20px;
+        font-size: 10px;
+    }
+
+    /* login section */
+
+    .login-form-main-container {
+        height: 270px !important;
+        width: 200px !important;
+        margin-left: -140px !important;
+        position: absolute;
+        top: 200px !important;
+        left: 40%;
+        padding: 10px;
+
+    }
+
+    
+
+
+    .login-text {
+        font-size: 25px;
+    }
+
+    .login-logo-img {
+        height: 20px;
+
+    }
+
+    .login-form-container {
+        /* background-color: white; */
+        width: 160px;
+        margin: 30px auto;
+        margin-top: 0;
+
+
+    }
+
+
+    .input-box {
+        height: 20px;
+        width: 150px;
+
+    }
+
+    .btn-green {
+        margin-left: 40px;
+        padding: 7px 20px;
+        border-radius: 10px;
+
+    }
+
+    /* footer section */
+
+    .brand-logo {
+        width: 80px !important;
+        padding-top: 10px !important;
+    }
+
+
+    .heading-footer-container {
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px;
+        background-color: black !important;
+    }
+
+    .footer-heading {
+        color: white;
+        font-size: 8px !important;
+        padding-top: 40px;
+    }
+
+
+    .social-media-image {
+        width: 20px;
+    }
+
+    .headding {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .address {
+        color: white;
+
+    }
+
+    .under-line {
+        text-decoration-color: rgb(255, 123, 0);
+        margin-top: 10px;
+    }
+
+
+}
