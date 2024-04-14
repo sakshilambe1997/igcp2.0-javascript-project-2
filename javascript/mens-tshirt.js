@@ -35,3 +35,9 @@ function decreaseQuantity() {
     finalPriceElement.innerText = `Total : ${quantityValue * 699}`;
 
 }
+// 
+function changeImgblue(){
+    const imageElement =document.getElementById("card-img")
+    imageElement.src= "./../img/mens-img/tshirt-1b.jpg"
+}
+
