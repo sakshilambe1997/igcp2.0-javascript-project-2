@@ -13,55 +13,448 @@
     <h1 class="tshirt-heading">
         T-shirt
     </h1>
-    <!-- <div class="card-main-container">
+
+    <div class="main-container">
         <div class="card-container">
-            <div class="card">
+            <div class="card-head-container">
+                <img src="./../img/mens-img/tshirt-1r.jpg" class="card-img"  id="card-img"/>
+                <img src="./../img/mens-img/heart-blank.png" class="like-btn" id="like" onclick="like()" />
+
+                <div class="card-clr-img-container">
+                    <img src="./../img/mens-img/tshirt-1b.jpg" onclick="changeImgblue()"   class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1y.jpg" onclick="changeImgyellow()" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1g.jpg" onclick="changeImggreen()" class="card-clr-img" />
+                </div>
+
+            </div>
+
+            <div class="card-info">
+
+                <p class="card-item-name">Men's Regular Fit Polo</p>
+                <span class="card-item-desc">United colors of BENETTON Men's Regular Fit Polo</span>
+                <div class="price-container">
+                    <span class="price">₹ 699 /-</span>
+                    <span class="quantity-price" id="quantity-price">1 X 699</span>
+                </div>
+                <span class="final-price" id="final-price"> Total : 699</span>
+
+                <div class="counter-container">
+
+                    <img src="./../img/mens-img/minus-icon.png" class="counter-icon" id="decrement" onclick="decreaseQuantity()"/>
+                    <span class="quantity" id="quantity">1</span>
+                    <img src="./../img/mens-img/add-icon.png" class="counter-icon" id="increment" onclick="increaseQuantity()" />
+
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
+            </div>
+
+
+        </div>
+        <!--  -->
+        <div class="card-container">
+            <div class="card-head-container">
+                <img src="./../img/mens-img/tshirt-2def.jpg" class="card-img" id="card-img2" />
+                <img src="./../img/mens-img/heart-blank.png" class="like-btn"  id="like2" onclick="like2()" />
+
+                <div class="card-clr-img-container">
+                    <img src="./../img/mens-img/tshirt-2b.jpg" class="card-clr-img" onclick="changeImgblue2()"/>
+                    <img src="./../img/mens-img/tshirt-2y.jpg" class="card-clr-img" onclick="changeImgyellow2()"/>
+                    <img src="./../img/mens-img/tshirt-2g.jpg" class="card-clr-img" onclick="changeImggreen2()"/>
+                </div>
+
+            </div>
+
+            <div class="card-info">
+
+                <p class="card-item-name">Allen Solly Men's Fit Polo</p>
+                <span class="card-item-desc">United colors of ALLEN SOLLY Men's Regular Fit Polo</span>
+                <div class="price-container">
+                    <span class="price">₹ 599 /-</span>
+                    <span class="quantity-price" id="quantity-price2">1 X 599</span>
+                </div>
+                <span class="final-price" id="final-price2"> Total : 599</span>
+
+                <div class="counter-container">
+
+                    <img src="./../img/mens-img/minus-icon.png" class="counter-icon" id="decrement2" onclick="decreaseQuantity2()" />
+                    <span class="quantity" id="quantity2">1</span>
+                    <img src="./../img/mens-img/add-icon.png" class="counter-icon" id="increment2" onclick="increaseQuantity2()"/>
+
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
+            </div>
+
+
+        </div>
+        <!--  -->
+        <div class="card-container">
+            <div class="card-head-container">
+                <img src="./../img/mens-img/tshirt-3def.jpg" class="card-img" id="card-img3"/>
+                <img src="./../img/mens-img/heart-blank.png" class="like-btn" id="like3" onclick="like3()"  />
+
+                <div class="card-clr-img-container">
+                    <img src="./../img/mens-img/tshirt-3b.jpg" class="card-clr-img" onclick="changeImgblue3()"/>
+                    <img src="./../img/mens-img/tshirt-3r.jpg" class="card-clr-img" onclick="changeImgred3()" />
+                    <img src="./../img/mens-img/tshirt-3g.jpg" class="card-clr-img" onclick="changeImggray3()"/>
+                </div>
+
+            </div>
+
+            <div class="card-info">
+
+                <p class="card-item-name">Puma  Men's T-Shirt</p>
+                <span class="card-item-desc">United colors of BENETTON Men's Regular Fit Polo</span>
+                <div class="price-container">
+                    <span class="price">₹ 650 /-</span>
+                    <span class="quantity-price" id="quantity-price3">1 X 650</span>
+                </div>
+                <span class="final-price" id="final-price3"> Total : 650</span>
+
+                <div class="counter-container">
+
+                    <img src="./../img/mens-img/minus-icon.png" class="counter-icon" onclick="decreaseQuantity3()" />
+                    <span class="quantity" id="quantity3">1</span>
+                    <img src="./../img/mens-img/add-icon.png" class="counter-icon" onclick="increaseQuantity3()"/>
+
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
+            </div>
+
+        </div>
+        <!--  -->
+        <div class="card-container">
+            <div class="card-head-container">
                 <img src="./../img/mens-img/tshirt-1r.jpg" class="card-img" />
+                <img src="./../img/mens-img/heart-blank.png" class="like-btn"  onclick="like()" />
+
+                <div class="card-clr-img-container">
+                    <img src="./../img/mens-img/tshirt-1b.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1y.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1g.jpg" class="card-clr-img" />
+                </div>
 
             </div>
-            <div class="card-item-desc">
-                <span class="card-item-name">Men's Regular Fit Polo</span>
+
+            <div class="card-info">
+
+                <p class="card-item-name">Men's Regular Fit Polo</p>
+                <span class="card-item-desc">United colors of BENETTON Men's Regular Fit Polo</span>
+                <div class="price-container">
+                    <span class="price">₹ 699 /-</span>
+                    <span class="quantity-price" id="quantity-price">1 X 699</span>
+                </div>
+                <span class="final-price" id="final-price"> Total : 699</span>
+
+                <div class="counter-container">
+
+                    <img src="./../img/mens-img/minus-icon.png" class="counter-icon" id="decrement" />
+                    <span class="quantity" id="quantity">1</span>
+                    <img src="./../img/mens-img/add-icon.png" class="counter-icon" id="increment" />
+
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
             </div>
 
         </div>
+        <!--  -->
+        <div class="card-container">
+            <div class="card-head-container">
+                <img src="./../img/mens-img/tshirt-1r.jpg" class="card-img" />
+                <img src="./../img/mens-img/heart-blank.png" class="like-btn" />
 
-    </div> -->
+                <div class="card-clr-img-container">
+                    <img src="./../img/mens-img/tshirt-1b.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1y.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1g.jpg" class="card-clr-img" />
+                </div>
 
-    
-<div class="card-container">
-    <div>
-        <img src="./../img/mens-img/tshirt-1r.jpg"    class="card-img" />
+            </div>
 
-        <div class="card-clr-img-container">
-        <img src="./../img/mens-img/tshirt-1b.jpg"  class="card-clr-img"/>
-        <img src="./../img/mens-img/tshirt-1y.jpg"  class="card-clr-img"/>
-        <img src="./../img/mens-img/tshirt-1g.jpg"  class="card-clr-img"/>
+            <div class="card-info">
+
+                <p class="card-item-name">Men's Regular Fit Polo</p>
+                <span class="card-item-desc">United colors of BENETTON Men's Regular Fit Polo</span>
+                <div class="price-container">
+                    <span class="price">₹ 699 /-</span>
+                    <span class="quantity-price" id="quantity-price">1 X 699</span>
+                </div>
+                <span class="final-price" id="final-price"> Total : 699</span>
+
+                <div class="counter-container">
+
+                    <img src="./../img/mens-img/minus-icon.png" class="counter-icon" id="decrement" />
+                    <span class="quantity" id="quantity">1</span>
+                    <img src="./../img/mens-img/add-icon.png" class="counter-icon" id="increment" />
+
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
+            </div>
+
         </div>
-     </div>
+        <!--  -->
+        <div class="card-container">
+            <div class="card-head-container">
+                <img src="./../img/mens-img/tshirt-1r.jpg" class="card-img" />
+                <img src="./../img/mens-img/heart-blank.png" class="like-btn" />
+
+                <div class="card-clr-img-container">
+                    <img src="./../img/mens-img/tshirt-1b.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1y.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1g.jpg" class="card-clr-img" />
+                </div>
+
+            </div>
+
+            <div class="card-info">
+
+                <p class="card-item-name">Men's Regular Fit Polo</p>
+                <span class="card-item-desc">United colors of BENETTON Men's Regular Fit Polo</span>
+                <div class="price-container">
+                    <span class="price">₹ 699 /-</span>
+                    <span class="quantity-price" id="quantity-price">1 X 699</span>
+                </div>
+                <span class="final-price" id="final-price"> Total : 699</span>
+
+                <div class="counter-container">
+
+                    <img src="./../img/mens-img/minus-icon.png" class="counter-icon" id="decrement" />
+                    <span class="quantity" id="quantity">1</span>
+                    <img src="./../img/mens-img/add-icon.png" class="counter-icon" id="increment" />
+
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
+            </div>
+
+        </div>
+        <!--  -->
+        <div class="card-container">
+            <div class="card-head-container">
+                <img src="./../img/mens-img/tshirt-1r.jpg" class="card-img" />
+                <img src="./../img/mens-img/heart-blank.png" class="like-btn" />
+
+                <div class="card-clr-img-container">
+                    <img src="./../img/mens-img/tshirt-1b.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1y.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1g.jpg" class="card-clr-img" />
+                </div>
+
+            </div>
+
+            <div class="card-info">
+
+                <p class="card-item-name">Men's Regular Fit Polo</p>
+                <span class="card-item-desc">United colors of BENETTON Men's Regular Fit Polo</span>
+                <div class="price-container">
+                    <span class="price">₹ 699 /-</span>
+                    <span class="quantity-price" id="quantity-price">1 X 699</span>
+                </div>
+                <span class="final-price" id="final-price"> Total : 699</span>
+
+                <div class="counter-container">
+
+                    <img src="./../img/mens-img/minus-icon.png" class="counter-icon" id="decrement" />
+                    <span class="quantity" id="quantity">1</span>
+                    <img src="./../img/mens-img/add-icon.png" class="counter-icon" id="increment" />
+
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
+            </div>
 
 
-    <div class="card-info">
-      
-       <p class="card-item-name">Men's Regular Fit Polo</p>
-       <span class="card-item-desc">United  colors  of  BENETTON  Men's  Regular  Fit  Polo</span>
-       <div class="price-container">
-        <span class="price">₹ 699 /-</span>
-        <span class="quantity-price" id="quantity-price">1 X 699</span>
-    </div>
-    <span class="final-price" id="final-price"> Total : 699</span>
+        </div>
+        <!--  -->
+        <div class="card-container">
+            <div class="card-head-container">
+                <img src="./../img/mens-img/tshirt-1r.jpg" class="card-img" />
+                <img src="./../img/mens-img/heart-blank.png" class="like-btn" />
 
-    <div class="counter-container">
+                <div class="card-clr-img-container">
+                    <img src="./../img/mens-img/tshirt-1b.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1y.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1g.jpg" class="card-clr-img" />
+                </div>
 
-        <img src="./../img/mens-img/minus-icon.png" class="counter-icon" id="decrement" />
-        <span class="quantity" id="quantity">1</span>
-        <img src="./../img/mens-img/add-icon.png" class="counter-icon" id="increment" />
+            </div>
 
-    </div>
+            <div class="card-info">
 
-       
-    </div>
+                <p class="card-item-name">Men's Regular Fit Polo</p>
+                <span class="card-item-desc">United colors of BENETTON Men's Regular Fit Polo</span>
+                <div class="price-container">
+                    <span class="price">₹ 699 /-</span>
+                    <span class="quantity-price" id="quantity-price">1 X 699</span>
+                </div>
+                <span class="final-price" id="final-price"> Total : 699</span>
+
+                <div class="counter-container">
+
+                    <img src="./../img/mens-img/minus-icon.png" class="counter-icon" id="decrement" />
+                    <span class="quantity" id="quantity">1</span>
+                    <img src="./../img/mens-img/add-icon.png" class="counter-icon" id="increment" />
+
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
+            </div>
+
+
+        </div>
+        <!--  -->
+        <div class="card-container">
+            <div class="card-head-container">
+                <img src="./../img/mens-img/tshirt-1r.jpg" class="card-img" />
+                <img src="./../img/mens-img/heart-blank.png" class="like-btn" />
+
+                <div class="card-clr-img-container">
+                    <img src="./../img/mens-img/tshirt-1b.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1y.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1g.jpg" class="card-clr-img" />
+                </div>
+
+            </div>
+
+            <div class="card-info">
+
+                <p class="card-item-name">Men's Regular Fit Polo</p>
+                <span class="card-item-desc">United colors of BENETTON Men's Regular Fit Polo</span>
+                <div class="price-container">
+                    <span class="price">₹ 699 /-</span>
+                    <span class="quantity-price" id="quantity-price">1 X 699</span>
+                </div>
+                <span class="final-price" id="final-price"> Total : 699</span>
+
+                <div class="counter-container">
+
+                    <img src="./../img/mens-img/minus-icon.png" class="counter-icon" id="decrement" />
+                    <span class="quantity" id="quantity">1</span>
+                    <img src="./../img/mens-img/add-icon.png" class="counter-icon" id="increment" />
+
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
+            </div>
+
+        </div>
+        <!--  -->
+        <div class="card-container">
+            <div class="card-head-container">
+                <img src="./../img/mens-img/tshirt-1r.jpg" class="card-img" />
+                <img src="./../img/mens-img/heart-blank.png" class="like-btn" />
+
+                <div class="card-clr-img-container">
+                    <img src="./../img/mens-img/tshirt-1b.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1y.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1g.jpg" class="card-clr-img" />
+                </div>
+
+            </div>
+
+            <div class="card-info">
+
+                <p class="card-item-name">Men's Regular Fit Polo</p>
+                <span class="card-item-desc">United colors of BENETTON Men's Regular Fit Polo</span>
+                <div class="price-container">
+                    <span class="price">₹ 699 /-</span>
+                    <span class="quantity-price" id="quantity-price">1 X 699</span>
+                </div>
+                <span class="final-price" id="final-price"> Total : 699</span>
+
+                <div class="counter-container">
+
+                    <img src="./../img/mens-img/minus-icon.png" class="counter-icon" id="decrement" />
+                    <span class="quantity" id="quantity">1</span>
+                    <img src="./../img/mens-img/add-icon.png" class="counter-icon" id="increment" />
+
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
+            </div>
+
+        </div>
+        <!--  -->
+        <div class="card-container">
+            <div class="card-head-container">
+                <img src="./../img/mens-img/tshirt-1r.jpg" class="card-img" />
+                <img src="./../img/mens-img/heart-blank.png" class="like-btn" />
+
+                <div class="card-clr-img-container">
+                    <img src="./../img/mens-img/tshirt-1b.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1y.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1g.jpg" class="card-clr-img" />
+                </div>
+
+            </div>
+
+            <div class="card-info">
+
+                <p class="card-item-name">Men's Regular Fit Polo</p>
+                <span class="card-item-desc">United colors of BENETTON Men's Regular Fit Polo</span>
+                <div class="price-container">
+                    <span class="price">₹ 699 /-</span>
+                    <span class="quantity-price" id="quantity-price">1 X 699</span>
+                </div>
+                <span class="final-price" id="final-price"> Total : 699</span>
+
+                <div class="counter-container">
+
+                    <img src="./../img/mens-img/minus-icon.png" class="counter-icon" id="decrement" />
+                    <span class="quantity" id="quantity">1</span>
+                    <img src="./../img/mens-img/add-icon.png" class="counter-icon" id="increment" />
+
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
+            </div>
+
+        </div>
+        <!--  -->
+        <div class="card-container">
+            <div class="card-head-container">
+                <img src="./../img/mens-img/tshirt-1r.jpg" class="card-img" />
+                <img src="./../img/mens-img/heart-blank.png" class="like-btn" />
+
+                <div class="card-clr-img-container">
+                    <img src="./../img/mens-img/tshirt-1b.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1y.jpg" class="card-clr-img" />
+                    <img src="./../img/mens-img/tshirt-1g.jpg" class="card-clr-img" />
+                </div>
+
+            </div>
+
+            <div class="card-info">
+
+                <p class="card-item-name">Men's Regular Fit Polo</p>
+                <span class="card-item-desc">United colors of BENETTON Men's Regular Fit Polo</span>
+                <div class="price-container">
+                    <span class="price">₹ 699 /-</span>
+                    <span class="quantity-price" id="quantity-price">1 X 699</span>
+                </div>
+                <span class="final-price" id="final-price"> Total : 699</span>
+
+                <div class="counter-container">
+
+                    <img src="./../img/mens-img/minus-icon.png" class="counter-icon" id="decrement" />
+                    <span class="quantity" id="quantity">1</span>
+                    <img src="./../img/mens-img/add-icon.png" class="counter-icon" id="increment" />
+
+                </div>
+
+                <button type="button" class="buy-now-btn">Buy Now</button>
+            </div>
+
+        </div>
     
- </div>
+    </div>
+    <script src="./../javascript/mens-tshirt.js">
+
+    </script>
 </body>
 
 </html>
