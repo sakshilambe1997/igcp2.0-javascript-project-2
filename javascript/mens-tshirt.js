@@ -1,3 +1,36 @@
+// like button
+let state =true;
+
+function like(){
+    const likeElement = document.getElementById("like")
+    if (state ){
+        likeElement.src="./../img/mens-img/heart-red.png";
+       
+        state = false;
+    }
+        else {
+            likeElement.src="./../img/mens-img/heart-blank.png";
+            state = true;
+        }
+
+    }
+    // card2
+    
+function like2(){
+    const likeElement = document.getElementById("like2")
+    if (state ){
+        likeElement.src="./../img/mens-img/heart-red.png";
+      
+        state = false;
+    }
+        else {
+            likeElement.src="./../img/mens-img/heart-blank.png";
+            state = true;
+        }
+
+    }
+
+
 const quantityPriceElement = document.getElementById("quantity-price")
 const finalPriceElement = document.getElementById("final-price")
 
