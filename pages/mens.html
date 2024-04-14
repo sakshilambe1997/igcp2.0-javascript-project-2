@@ -9,7 +9,26 @@
 <link rel="stylesheet" href="./../css/mens.css" />
 <link rel="stylesheet" href="./../css/style.css">
 
-<body>
+<body id="body">
+    <!-- Navbar -->
+    <div class="navbar-container">
+
+        <img src="./../img/logo2.jpg" class="logo-img">
+        <a href="./../index.html" class="navbar-menus">Home</a>
+        <a href="./mens.html" class="navbar-menus">Men</a>
+        <a href="./pages/womens.html" class="navbar-menus">Wowen</a>
+        <a href="./kids.html" class="navbar-menus">Kids</a>
+        <input type="text" class="input-box" placeholder="Search Products">
+        <a href="" class="navbar-menus">About</a>
+        <a href="./pages/login.html"> <button type="button" class="sign-up-btn">SignIn/Up</button></a>
+        <div>
+            <img src="./../img/home-img/light-mode.png" height="25px" class="mode-img active" id="light"
+                onclick="lightMode()">
+
+            <img src="./../img/home-img/dark-mode.png" height="25px" class="mode-img" id="dark" onclick="darkMode()">
+        </div>
+    </div>
+
     <img src="./../img/mens-img/homepage1.webp" class="home-img" />
     <div>
         <br><br>
@@ -25,8 +44,8 @@
             </div>
 
             <div class="offer-card" data-aos="fade-right" data-aos-duration="2000">
-                <img src="./../img/mens-img/tshirt1.webp" class="offer-item" />
-                <p class="offer-desc">MIN. 40 % OFF</p>
+               <a href="./../pages/mens-tshirt.html"> <img src="./../img/mens-img/tshirt1.webp" class="offer-item" />
+                <p class="offer-desc">MIN. 40 % OFF</p></a>
 
             </div>
 
@@ -90,7 +109,7 @@
         <div class="footer-container">
 
             <div>
-                <img src="./img/logo2.jpg" class="footer-logo-img">
+                <img src="./../img/logo2.jpg"class="footer-logo-img">
             </div>
 
             <div>
@@ -112,21 +131,22 @@
 
             <div>
                 <p class="footer-text"><u>Online Shop</u></p>
-                <p class="footer-text">Fast Food</p>
-                <p class="footer-text">Indian</p>
-                <p class="footer-text">Italian</p>
+                <p class="footer-text">Free delivery</p>
+                <p class="footer-text">Fashion</p>
+                <p class="footer-text">Contact Us</p>
                 <p class="footer-text">All Types</p>
             </div>
 
             <div>
                 <p class="footer-text"><u>Follow Us</u></p>
 
-                <img src="./img/home-img/facebook.png" height="30px" style="margin: 10px 5px; cursor: pointer;">
-                <img src="./img/home-img/instagram.png" height="30px" style="margin: 10px 5px; cursor: pointer;">
-                <img src="./img/home-img/twitter.png" height="30px" style="margin: 10px 5px; cursor: pointer;">
-                <img src="./img/home-img/linkedin.png" height="30px" style="margin : 10px 5px;   cursor: pointer;">
+                <img src="./../img/home-img/facebook.png" height="30px" style="margin: 10px 5px; cursor: pointer;">
+                <img src="./../img/home-img/instagram.png" height="30px" style="margin: 10px 5px; cursor: pointer;">
+                <img src="./../img/home-img/twitter.png" height="30px" style="margin: 10px 5px; cursor: pointer;">
+                <img src="./../img/home-img/linkedin.png" height="30px" style="margin : 10px 5px;   cursor: pointer;">
 
             </div>
+            <script src="./../javascript/home.js">  </script>
 
 
 </body>
