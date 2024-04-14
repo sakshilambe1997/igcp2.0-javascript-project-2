@@ -126,6 +126,26 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     text-decoration: none;
     color: black;
 }
+
+/* light dark mode */
+
+.active {
+    border: 2px solid blue;
+}
+
+.bg-dark {
+    background-color: black;
+    color: white;
+}
+
+.bg-light {
+    background-color: white;
+    color: black;
+}
+
+.text-color{
+    color: black;
+}
     
     
     
