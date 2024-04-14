@@ -111,6 +111,8 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     font-family: "Russo One", sans-serif;
     text-align: center;
     margin: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 /* light dark mode */
