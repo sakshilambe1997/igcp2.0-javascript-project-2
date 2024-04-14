@@ -58,4 +58,8 @@ function darkMode() {
 
 }
 
+function boxContainer(){
+    const boxElements=document.getElementById('box-container');
+    boxElements.className.add('text-color');
+}
 
