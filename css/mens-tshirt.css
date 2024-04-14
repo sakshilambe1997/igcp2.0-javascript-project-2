@@ -140,4 +140,23 @@
     cursor: pointer;
    
 }
+/* light dark mode */
+
+.active {
+    border: 2px solid blue;
+}
+
+.bg-dark {
+    background-color: black;
+    color: white;
+}
+
+.bg-light {
+    background-color: white;
+    color: black;
+}
+
+.text-color{
+    color: black;
+}
    
