@@ -69,3 +69,9 @@
         const boxElements=document.getElementById('box-container');
         boxElements.className.add('text-color');
     }
+
+    function like(){
+        const liekeElement=document.getElementById('like-btn');
+        liekeElement.src=""
+
+    }
