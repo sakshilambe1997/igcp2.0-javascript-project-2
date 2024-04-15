@@ -105,7 +105,12 @@
     height: 210px;
     padding: 10px;
     border: 1px solid black;
+   text-decoration: none;
     
+}
+
+.text-decoration-none{
+    text-decoration: none;
 }
 
 .category-card:hover{
